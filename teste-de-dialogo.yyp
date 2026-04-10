@@ -44,7 +44,9 @@
     {"$GMFolder":"","%Name":"Tile Sets","folderPath":"folders/Tile Sets.yy","name":"Tile Sets","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Timelines","folderPath":"folders/Timelines.yy","name":"Timelines","resourceType":"GMFolder","resourceVersion":"2.0",},
   ],
-  "ForcedPrefabProjectReferences":[],
+  "ForcedPrefabProjectReferences":[
+    {"link":"io.gamemaker.sdfshaders-1.0.0","name":"io.gamemaker.sdfshaders-1.0.0","path":"io.gamemaker.sdfshaders-1.0.0.yyp",},
+  ],
   "IncludedFiles":[
     {"$GMIncludedFile":"","%Name":"scribble_license.txt","CopyToMask":-1,"filePath":"datafiles","name":"scribble_license.txt","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
   ],
@@ -55,6 +57,7 @@
   },
   "name":"teste-de-dialogo",
   "resources":[
+    {"id":{"name":"fnt_texto","path":"fonts/fnt_texto/fnt_texto.yy",},},
     {"id":{"name":"scribble_fallback_font","path":"fonts/scribble_fallback_font/scribble_fallback_font.yy",},},
     {"id":{"name":"obj_botao","path":"objects/obj_botao/obj_botao.yy",},},
     {"id":{"name":"obj_caixa_dialogo","path":"objects/obj_caixa_dialogo/obj_caixa_dialogo.yy",},},
@@ -104,6 +107,7 @@
     {"id":{"name":"__scribble_texture_get_material","path":"scripts/__scribble_texture_get_material/__scribble_texture_get_material.yy",},},
     {"id":{"name":"__scribble_texture_group_get_ready","path":"scripts/__scribble_texture_group_get_ready/__scribble_texture_group_get_ready.yy",},},
     {"id":{"name":"__scribble_tick","path":"scripts/__scribble_tick/__scribble_tick.yy",},},
+    {"id":{"name":"comandos","path":"scripts/comandos/comandos.yy",},},
     {"id":{"name":"draw_text_scribble_ext","path":"scripts/draw_text_scribble_ext/draw_text_scribble_ext.yy",},},
     {"id":{"name":"draw_text_scribble","path":"scripts/draw_text_scribble/draw_text_scribble.yy",},},
     {"id":{"name":"scribble_add_macro","path":"scripts/scribble_add_macro/scribble_add_macro.yy",},},
