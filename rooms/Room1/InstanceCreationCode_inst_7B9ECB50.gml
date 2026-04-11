@@ -1,0 +1,1 @@
+texto = "Exemplo 2"
